@@ -1,0 +1,23 @@
+CREATE TABLE sephora_products (
+    id INTEGER,
+    brand TEXT,
+    category TEXT,
+    name TEXT,
+    size TEXT,
+    rating DECIMAL(2,1),
+    number_of_reviews INTEGER,
+    love INTEGER,
+    price DECIMAL(10,2),
+    value_price DECIMAL(10,2),
+    url TEXT,
+    marketing_flags TEXT,
+    marketing_flags_content TEXT,
+    options TEXT,
+    details TEXT,
+    how_to_use TEXT,
+    ingredients TEXT,
+    online_only BOOLEAN,
+    exclusive BOOLEAN,
+    limited_edition BOOLEAN,
+    limited_time_offer BOOLEAN
+);
